@@ -1,9 +1,5 @@
-import React from 'react'
+import {HomeClient} from "@/components/home/HomeClient"
 
-const page = () => {
-  return (
-    <div>page</div>
-  )
+export default function Page() {
+  return <HomeClient/>
 }
-
-export default page
